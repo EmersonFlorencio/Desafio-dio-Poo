@@ -29,7 +29,9 @@ public class Main {
     devEmerson.inscreverBootcamp(bootcamp);
     System.out.println("Conteúdos Inscritos Emerson" + devEmerson.getConteudosInscritos());
     devEmerson.progredir();
+    devEmerson.progredir();
     System.out.println("Conteúdos Concluídos Emerson" + devEmerson.getConteudosConcluidos());
+    System.out.println("Xp: " + devEmerson.calcularTotalXp());
 
     Dev devJose = new Dev();
     devJose.setNome("José");
